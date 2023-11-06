@@ -1,0 +1,64 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.drag-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 222px;
+  float: left;
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.drag-image input {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 20px;
+  width: 20px;
+
+  z-index: 99;
+}
+
+.drag-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #303030b7;
+  
+  display: none;
+  transition: 1s;
+}
+
+.drag-image:hover .drag-inner {
+  display: block;
+}
+
+.add-image button {
+  color: #8d8989;
+  border: thin dashed #95959c;
+  height: 220px;
+  width: 225px;
+  align-items: center;
+  display: flex;
+  margin-top: 495px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.indexZero {
+  height: auto;
+  width: 460px;
+  display: block;
+}
+
+.navbar button {
+  color: #ff0000d8;
+}

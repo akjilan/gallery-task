@@ -1,0 +1,13 @@
+@media (max-width: 880px) {
+  .image-gellary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .indexZero {
+    width: 282px;
+  }
+  .add-image button {
+    margin: auto;
+  }
+}
